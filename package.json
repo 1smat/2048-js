@@ -1,0 +1,11 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "2048 game by ism4t",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ism4t",
+  "license": "ISC"
+}
