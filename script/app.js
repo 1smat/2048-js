@@ -3,12 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
    
     const width = 4
     let squares = []
+    let square 
     
     // create a playing board
     function createBoard() {
         for (let i=0; i < width * width; i++) {       
             square = document.createElement('div')
             square.innerHTML = ''
+            
+         
             gridDisplay.appendChild(square)
             squares.push(square)
         }
@@ -20,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // generate a number randomly 
     function generate() {
         setTimeout(function () {
+            square.classList.add("box", "faded-out")
+            square.classList.remove("faded-out")
             let randomNumber = Math.floor(Math.random() * squares.length)
             if  (squares[randomNumber].innerHTML == 0) {
                 squares[randomNumber].innerHTML = 2

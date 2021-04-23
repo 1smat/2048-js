@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 body {
     background-color: #00030C;
 }
 
-.grid {         
+.grid {
     padding-top: 100px;
     margin: 0 auto;
     display: flex;
@@ -17,7 +17,6 @@ body {
 }
 .grid > div {
     line-height: 100px;
-
     font-family: Sans-serif, Arial, Courier;
     padding-top: 0;
     width: 100px;
@@ -28,6 +27,5 @@ body {
     text-align: center;
     border-radius: 8px;
     border: 1px solid;
-    border-color: #AAAAB1;
-    
+
 }
